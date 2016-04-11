@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="9.8.1-SNAPSHOT" expressionLanguage="http://www.w3.org/TR/XPath" id="sid-d19f591e-ce4a-4ad6-9009-12d776efbd91" targetNamespace="http://www.signavio.com" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+   <process id="sid-344dc0b3-65a4-4058-89ef-b13df0bfdf8b" isClosed="false" isExecutable="false" processType="None">
+      <extensionElements>
+         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="e0a42b8651fc48ea95eecf9ef52cf8c6"/>
+      </extensionElements>
+      <task completionQuantity="1" id="sid-EE0BAD5E-CCDE-418A-B13F-24933B2FBA25" isForCompensation="false" name="Irish names" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioDictionaryLink propertyId="name">
+               <signavio:dictionaryLink>/glossary/821e1fdd13004c10bfcba55e51873910</signavio:dictionaryLink>
+            </signavio:signavioDictionaryLink>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue=""/>
+         </extensionElements>
+      </task>
+   </process>
+   <bpmndi:BPMNDiagram id="sid-29a2aefa-51fa-44a8-be2e-86855da9e549">
+      <bpmndi:BPMNPlane bpmnElement="sid-344dc0b3-65a4-4058-89ef-b13df0bfdf8b" id="sid-4d18358b-c993-446d-8548-dcbe9346a297">
+         <bpmndi:BPMNShape bpmnElement="sid-EE0BAD5E-CCDE-418A-B13F-24933B2FBA25" id="sid-EE0BAD5E-CCDE-418A-B13F-24933B2FBA25_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="675.0" y="90.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-a1a8b1d5-ab86-4e45-ab65-b9784268afbf">
+               <omgdc:Bounds height="12.0" width="63.25714111328125" x="693.3714294433594" y="122.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+      </bpmndi:BPMNPlane>
+      <bpmndi:BPMNLabelStyle id="sid-a1a8b1d5-ab86-4e45-ab65-b9784268afbf">
+         <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"/>
+      </bpmndi:BPMNLabelStyle>
+   </bpmndi:BPMNDiagram>
+</definitions>
