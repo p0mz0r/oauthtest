@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="9.8.1-SNAPSHOT" expressionLanguage="http://www.w3.org/TR/XPath" id="sid-4b61eabe-9351-45e0-8682-7fbee4c63e6c" targetNamespace="http://www.signavio.com" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+   <process id="sid-b3944735-98fa-435f-afd4-12a7f39cd8b4" isClosed="false" isExecutable="false" processType="None">
+      <extensionElements>
+         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="7d27d3835ba046acaf0d34f54cc5b877"/>
+      </extensionElements>
+      <startEvent id="sid-24AE1DC0-64EF-467C-AD6B-AB5CD90E3C9B" name="Start">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="vorgngerprozesse" metaValue=""/>
+         </extensionElements>
+         <outgoing>sid-42A04492-D986-4257-B04F-82294DDE3D27</outgoing>
+      </startEvent>
+      <task completionQuantity="1" id="sid-9BA05094-A75C-429E-9D55-1B962FDFBD46" isForCompensation="false" name="Work" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue=""/>
+         </extensionElements>
+         <incoming>sid-42A04492-D986-4257-B04F-82294DDE3D27</incoming>
+         <outgoing>sid-0B79C8DB-F66D-43E0-902D-E54CE3F741CC</outgoing>
+      </task>
+      <endEvent id="sid-8D1561BD-3A15-4375-8BBE-BE1F8EBA3156" name="End">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="nachfolgerprozesse" metaValue=""/>
+         </extensionElements>
+         <incoming>sid-0B79C8DB-F66D-43E0-902D-E54CE3F741CC</incoming>
+      </endEvent>
+      <sequenceFlow id="sid-42A04492-D986-4257-B04F-82294DDE3D27" name="" sourceRef="sid-24AE1DC0-64EF-467C-AD6B-AB5CD90E3C9B" targetRef="sid-9BA05094-A75C-429E-9D55-1B962FDFBD46"/>
+      <sequenceFlow id="sid-0B79C8DB-F66D-43E0-902D-E54CE3F741CC" name="" sourceRef="sid-9BA05094-A75C-429E-9D55-1B962FDFBD46" targetRef="sid-8D1561BD-3A15-4375-8BBE-BE1F8EBA3156"/>
+   </process>
+   <bpmndi:BPMNDiagram id="sid-9479750b-1343-4a29-83d7-b6994b1c4522">
+      <bpmndi:BPMNPlane bpmnElement="sid-b3944735-98fa-435f-afd4-12a7f39cd8b4" id="sid-c206491d-2c64-4d1e-b513-9b15d27980e4">
+         <bpmndi:BPMNShape bpmnElement="sid-24AE1DC0-64EF-467C-AD6B-AB5CD90E3C9B" id="sid-24AE1DC0-64EF-467C-AD6B-AB5CD90E3C9B_gui">
+            <omgdc:Bounds height="30.0" width="30.0" x="60.0" y="210.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-9318c867-5d52-48f7-a023-22a34cc8b045">
+               <omgdc:Bounds height="11.0" width="25.45714569091797" x="62.271427154541016" y="242.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-9BA05094-A75C-429E-9D55-1B962FDFBD46" id="sid-9BA05094-A75C-429E-9D55-1B962FDFBD46_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="210.0" y="185.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-52ad938f-caf5-4de2-bfd6-7313c5b0e8fe">
+               <omgdc:Bounds height="12.0" width="29.314285278320312" x="245.34285736083984" y="217.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-8D1561BD-3A15-4375-8BBE-BE1F8EBA3156" id="sid-8D1561BD-3A15-4375-8BBE-BE1F8EBA3156_gui">
+            <omgdc:Bounds height="28.0" width="28.0" x="430.0" y="211.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-9318c867-5d52-48f7-a023-22a34cc8b045">
+               <omgdc:Bounds height="11.0" width="19.092857360839844" x="434.4535713195801" y="241.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNEdge bpmnElement="sid-42A04492-D986-4257-B04F-82294DDE3D27" id="sid-42A04492-D986-4257-B04F-82294DDE3D27_gui">
+            <omgdi:waypoint x="90.0" y="225.0"/>
+            <omgdi:waypoint x="210.0" y="225.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-0B79C8DB-F66D-43E0-902D-E54CE3F741CC" id="sid-0B79C8DB-F66D-43E0-902D-E54CE3F741CC_gui">
+            <omgdi:waypoint x="310.0" y="225.0"/>
+            <omgdi:waypoint x="430.0" y="225.0"/>
+         </bpmndi:BPMNEdge>
+      </bpmndi:BPMNPlane>
+      <bpmndi:BPMNLabelStyle id="sid-9318c867-5d52-48f7-a023-22a34cc8b045">
+         <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="11.0"/>
+      </bpmndi:BPMNLabelStyle>
+      <bpmndi:BPMNLabelStyle id="sid-52ad938f-caf5-4de2-bfd6-7313c5b0e8fe">
+         <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"/>
+      </bpmndi:BPMNLabelStyle>
+   </bpmndi:BPMNDiagram>
+</definitions>
